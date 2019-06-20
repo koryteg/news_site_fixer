@@ -1,0 +1,15 @@
+{
+  "name": "News Fixer",
+  "version": "1.0",
+  "description": "tired of all these media sites blocking access? this should fix that.",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "manifest_version": 2
+}

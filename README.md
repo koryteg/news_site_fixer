@@ -6,3 +6,20 @@ this is currently being built still. I need to add more news outlets, so it is n
 3. turn on developer mode
 4. click `load unpacked` on the left side of the screen.
 5. point it to this folder on your machine.
+
+
+supported sites:
+
+- seattle times
+- ny times
+- dailybeast
+
+on the list:
+
+- business insider
+- tech crunch
+- forbes
+- politico
+- sacbee
+- nbcnews
+- independent.co.uk

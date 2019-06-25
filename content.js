@@ -43,6 +43,13 @@ var nytimes = function() {
   // document.getElementsByClassName("css-1bd8bfl")[0].remove()
 }
 
+var businessInsider = function() {
+  console.log('businessinsider')
+  document.getElementsByClassName("tp-modal")[0].remove()
+  document.getElementsByClassName("tp-backdrop")[0].remove()
+  document.body.className = document.body.className.replace("tp-modal-open","")
+}
+
 var thedailybeast = function() {
   document.getElementsByClassName("tp-modal")[0].remove()
   document.getElementsByClassName("tp-backdrop")[0].remove()
@@ -62,6 +69,9 @@ var thedailybeast = function() {
     case 'www.nytimes.com':
       console.log('new york times')
       nytimes()
+      break;
+    case 'www.businessinsider.com':
+      businessInsider()
       break;
     default:
       console.log('seems like a non news site')

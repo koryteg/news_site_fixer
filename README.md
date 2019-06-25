@@ -13,13 +13,14 @@ supported sites:
 - seattle times
 - ny times
 - dailybeast
+- business insider
 
 on the list:
 
-- business insider
 - tech crunch
 - forbes
 - politico
 - sacbee
 - nbcnews
 - independent.co.uk
+- oregonlive
